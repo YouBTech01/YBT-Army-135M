@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="YBT Army">
+<title>YBT Army</title>
+<defs>
+<linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#2563EB"/><stop offset=".5" stop-color="#7C3AED"/><stop offset="1" stop-color="#16A34A"/></linearGradient>
+<pattern id="p" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.4" fill="#fff" opacity=".10"/></pattern>
+<clipPath id="c"><rect x="70" y="196" width="300" height="7" rx="3.5"/></clipPath>
+</defs>
+<style>
+text{font-family:'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif}
+.title{animation:slide 1s cubic-bezier(.2,.8,.2,1) both}
+@keyframes slide{from{opacity:0;transform:translateX(-30px)}to{opacity:1;transform:none}}
+.bar{animation:grow 1.2s .4s cubic-bezier(.2,.8,.2,1) both}
+@keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+.bar,.shine{transform-box:fill-box;transform-origin:left}
+.shine{animation:shine 3.2s 1.6s ease-in-out infinite}
+@keyframes shine{0%{transform:translateX(-120px);opacity:0}20%{opacity:.8}60%,100%{transform:translateX(320px);opacity:0}}
+.t1{animation:tg1 12s infinite}.t2{animation:tg2 12s infinite}.t3{animation:tg3 12s infinite}
+@keyframes tg1{0%{opacity:0;transform:translateY(10px)}4%,28%{opacity:1;transform:none}33%,100%{opacity:0}}
+@keyframes tg2{0%,33%{opacity:0;transform:translateY(10px)}37%,61%{opacity:1;transform:none}66%,100%{opacity:0}}
+@keyframes tg3{0%,66%{opacity:0;transform:translateY(10px)}70%,94%{opacity:1;transform:none}99%,100%{opacity:0}}
+.eq{transform-box:fill-box;transform-origin:bottom;animation:eq 1.4s ease-in-out infinite}
+@keyframes eq{0%,100%{transform:scaleY(.25)}50%{transform:scaleY(1)}}
+.f{animation:float 7s ease-in-out infinite}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-14px)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect width="1200" height="320" rx="28" fill="#0D0D0D"/>
+<rect width="1200" height="320" rx="28" fill="url(#p)"/>
+<circle class="f" cx="780" cy="70" r="7" fill="#2563EB" opacity=".5" style="animation-delay:0s"/><circle class="f" cx="1120" cy="60" r="5" fill="#16A34A" opacity=".5" style="animation-delay:1.4s"/><circle class="f" cx="1090" cy="270" r="8" fill="#F59E0B" opacity=".5" style="animation-delay:2.4s"/><circle class="f" cx="800" cy="275" r="5" fill="#7C3AED" opacity=".5" style="animation-delay:3.4s"/>
+<text class="title" x="70" y="160" font-size="96" font-weight="800" fill="#fff" letter-spacing="-2">YBT Army</text>
+<rect class="bar" x="70" y="196" width="300" height="7" rx="3.5" fill="url(#g)"/>
+<g clip-path="url(#c)"><rect class="shine" x="70" y="196" width="60" height="7" fill="#fff" opacity="0"/></g>
+<text class="t1" x="70" y="256" font-size="27" fill="#A1A1AA">A compact 135M-parameter AI assistant</text>
+<text class="t2" x="70" y="256" font-size="27" fill="#A1A1AA">Runs on your laptop - under 300 MB</text>
+<text class="t3" x="70" y="256" font-size="27" fill="#A1A1AA">Clean chat UI for desktop and mobile</text>
+<rect class="eq" x="860" y="160" width="26" height="90" rx="13" fill="#2563EB" style="animation-delay:0s"/><rect class="eq" x="906" y="120" width="26" height="130" rx="13" fill="#7C3AED" style="animation-delay:0.2s"/><rect class="eq" x="952" y="180" width="26" height="70" rx="13" fill="#16A34A" style="animation-delay:0.45s"/><rect class="eq" x="998" y="140" width="26" height="110" rx="13" fill="#F59E0B" style="animation-delay:0.1s"/><rect class="eq" x="1044" y="100" width="26" height="150" rx="13" fill="#2563EB" style="animation-delay:0.35s"/><rect class="eq" x="1090" y="170" width="26" height="80" rx="13" fill="#7C3AED" style="animation-delay:0.6s"/>
+</svg>

@@ -1,0 +1,4 @@
+*.safetensors filter=lfs diff=lfs merge=lfs -text
+* text=auto
+*.png binary
+*.bat text eol=crlf

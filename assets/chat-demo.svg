@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" width="900" height="560" role="img" aria-label="YBT Army chat demo">
+<title>YBT Army chat demo</title>
+<style>
+text{font-family:'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif}
+@keyframes u1{0%,4.118%{opacity:0;transform:translateY(10px)}6.176%,90.588%{opacity:1;transform:none}93.529%,100%{opacity:0}}@keyframes d1{0%,8.824%{opacity:0;transform:translateY(10px)}10.882%,18.824%{opacity:1;transform:none}21.765%,100%{opacity:0}}@keyframes a1{0%,25.294%{opacity:0;transform:translateY(10px)}27.353%,90.588%{opacity:1;transform:none}93.529%,100%{opacity:0}}@keyframes u2{0%,40.0%{opacity:0;transform:translateY(10px)}42.059%,90.588%{opacity:1;transform:none}93.529%,100%{opacity:0}}@keyframes d2{0%,44.706%{opacity:0;transform:translateY(10px)}46.765%,54.706%{opacity:1;transform:none}57.647%,100%{opacity:0}}@keyframes a2{0%,61.176%{opacity:0;transform:translateY(10px)}63.235%,90.588%{opacity:1;transform:none}93.529%,100%{opacity:0}}@keyframes w0{0%,18.824%{fill-opacity:0}19.529%,90.588%{fill-opacity:1}93.529%,100%{fill-opacity:0}}@keyframes w1{0%,20.118%{fill-opacity:0}20.824%,90.588%{fill-opacity:1}93.529%,100%{fill-opacity:0}}@keyframes w2{0%,21.412%{fill-opacity:0}22.118%,90.588%{fill-opacity:1}93.529%,100%{fill-opacity:0}}@keyframes w3{0%,22.706%{fill-opacity:0}23.412%,90.588%{fill-opacity:1}93.529%,100%{fill-opacity:0}}@keyframes w4{0%,24.0%{fill-opacity:0}24.706%,90.588%{fill-opacity:1}93.529%,100%{fill-opacity:0}}@keyframes w5{0%,25.294%{fill-opacity:0}26.0%,90.588%{fill-opacity:1}93.529%,100%{fill-opacity:0}}@keyframes x0{0%,49.412%{fill-opacity:0}50.118%,90.588%{fill-opacity:1}93.529%,100%{fill-opacity:0}}@keyframes x1{0%,50.706%{fill-opacity:0}51.412%,90.588%{fill-opacity:1}93.529%,100%{fill-opacity:0}}@keyframes x2{0%,52.0%{fill-opacity:0}52.706%,90.588%{fill-opacity:1}93.529%,100%{fill-opacity:0}}@keyframes x3{0%,53.294%{fill-opacity:0}54.0%,90.588%{fill-opacity:1}93.529%,100%{fill-opacity:0}}@keyframes x4{0%,54.588%{fill-opacity:0}55.294%,90.588%{fill-opacity:1}93.529%,100%{fill-opacity:0}}
+.u1{animation:u1 17s infinite;opacity:0}.d1{animation:d1 17s infinite;opacity:0}.a1{animation:a1 17s infinite;opacity:0}.u2{animation:u2 17s infinite;opacity:0}.d2{animation:d2 17s infinite;opacity:0}.a2{animation:a2 17s infinite;opacity:0}.w0{animation:w0 17s infinite;fill-opacity:0}.w1{animation:w1 17s infinite;fill-opacity:0}.w2{animation:w2 17s infinite;fill-opacity:0}.w3{animation:w3 17s infinite;fill-opacity:0}.w4{animation:w4 17s infinite;fill-opacity:0}.w5{animation:w5 17s infinite;fill-opacity:0}.x0{animation:x0 17s infinite;fill-opacity:0}.x1{animation:x1 17s infinite;fill-opacity:0}.x2{animation:x2 17s infinite;fill-opacity:0}.x3{animation:x3 17s infinite;fill-opacity:0}.x4{animation:x4 17s infinite;fill-opacity:0}
+.dot{animation:dot 1s ease-in-out infinite}.dot:nth-child(2){animation-delay:.15s}.dot:nth-child(3){animation-delay:.3s}
+@keyframes dot{0%,80%,100%{transform:translateY(0);opacity:.35}40%{transform:translateY(-6px);opacity:1}}
+.dot{transform-box:fill-box}
+.live{animation:live 2s ease-out infinite}
+@keyframes live{0%{r:5;opacity:1}70%,100%{r:11;opacity:0}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;opacity:1!important;fill-opacity:1!important}}
+</style>
+<rect x=".75" y=".75" width="898.5" height="558.5" rx="24" fill="#FFFFFF" stroke="#E6E6E8" stroke-width="1.5"/>
+<text x="40" y="46" font-size="21" font-weight="800" fill="#0D0D0D">YBT Army</text>
+<text x="138" y="46" font-size="18" fill="#6B6B76">/</text><text x="156" y="46" font-size="18" fill="#6B6B76">New chat</text>
+<circle cx="826" cy="40" r="5" fill="#16A34A"/><circle class="live" cx="826" cy="40" r="5" fill="none" stroke="#16A34A" stroke-width="2"/>
+<text x="842" y="46" font-size="14" fill="#6B6B76" text-anchor="start">Online</text>
+<line x1="40" y1="68" x2="860" y2="68" stroke="#E6E6E8"/>
+
+<g class="u1"><rect x="530" y="96" width="330" height="48" rx="24" fill="#F2F2F3"/><text x="554" y="127" font-size="19" fill="#0D0D0D">What is the capital of Japan?</text></g>
+<g class="d1"><circle class="dot" cx="48" cy="196" r="6" fill="#0D0D0D"/><circle class="dot" cx="68" cy="196" r="6" fill="#0D0D0D"/><circle class="dot" cx="88" cy="196" r="6" fill="#0D0D0D"/></g>
+<text x="40" y="204" font-size="21" fill="#0D0D0D"><tspan class="w0">The </tspan><tspan class="w1">capital </tspan><tspan class="w2">of </tspan><tspan class="w3">Japan </tspan><tspan class="w4">is </tspan><tspan class="w5" font-weight="700">Tokyo.</tspan></text>
+<g class="a1" font-size="14" fill="#6B6B76"><text x="40" y="240">Copy</text><text x="98" y="240">Regenerate</text><text x="204" y="240">9 tokens  ·  21 tok/s</text></g>
+
+<g class="u2"><rect x="626" y="286" width="234" height="48" rx="24" fill="#F2F2F3"/><text x="650" y="317" font-size="19" fill="#0D0D0D">What is 128 * 46?</text></g>
+<g class="d2"><circle class="dot" cx="48" cy="386" r="6" fill="#0D0D0D"/><circle class="dot" cx="68" cy="386" r="6" fill="#0D0D0D"/><circle class="dot" cx="88" cy="386" r="6" fill="#0D0D0D"/></g>
+<text x="40" y="394" font-size="21" fill="#0D0D0D"><tspan class="x0">128 </tspan><tspan class="x1">* </tspan><tspan class="x2">46 </tspan><tspan class="x3">= </tspan><tspan class="x4" font-weight="700">5888</tspan></text>
+<g class="a2" font-size="14" fill="#6B6B76"><text x="40" y="430">Copy</text><text x="98" y="430">Regenerate</text></g>
+
+<rect x="40" y="478" width="820" height="56" rx="28" fill="#F2F2F3" stroke="#E6E6E8"/>
+<text x="72" y="512" font-size="18" fill="#6B6B76">Message YBT Army</text>
+<circle cx="826" cy="506" r="19" fill="#0D0D0D"/>
+<path d="M826 515 V497 M818 504 L826 496 L834 504" stroke="#fff" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
