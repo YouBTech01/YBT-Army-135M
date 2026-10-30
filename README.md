@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  A compact 135M-parameter AI assistant with a clean chat UI.<br>
+  A compact 135M-parameter AI model with a clean chat UI.<br>
   Runs offline on a normal laptop once installed, in under 300&nbsp;MB.
 </p>
 
@@ -128,6 +128,18 @@ Be realistic about a 135M-parameter model.
 - Replies in Hindi or Hinglish are rougher than in English.
 - Long, multi-step reasoning and long documents are beyond its size.
 
-## Credits and licence
+## Roadmap
 
-YBT Army is built and maintained by the YBT Army team. The model is derived from open-source weights, and the licence terms require a notice to travel with copies of the model. Please keep **[`NOTICE.md`](NOTICE.md)** when you share or publish this project.
+- A **larger model with more parameters** for more accurate answers.
+- Better Hindi and Hinglish.
+- A bigger, fairer evaluation set.
+
+## Contributing
+
+**Everyone is welcome to collaborate on this repository.** Fork it, make a change and open a pull request, or open an issue or Discussion with an idea. See **[CONTRIBUTING.md](CONTRIBUTING.md)** for the quick workflow and ideas for where to help.
+
+## Licence and credits
+
+The YBT Army source code is released under the **[MIT licence](LICENSE)**. The model is derived from open-source weights that keep their own licence terms. Please keep **[`NOTICE.md`](NOTICE.md)** when you share or publish this project.
+
+YBT Army is built and maintained by the YBT Army team.

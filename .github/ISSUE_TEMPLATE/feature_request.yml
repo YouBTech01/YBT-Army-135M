@@ -1,0 +1,20 @@
+name: Idea or feature request
+description: Suggest an improvement, a new feature or help with a larger model
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like to see?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why would it help?
+  - type: checkboxes
+    id: help
+    attributes:
+      label: Can you help build it?
+      options:
+        - label: Yes, I would like to work on this

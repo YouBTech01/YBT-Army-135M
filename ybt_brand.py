@@ -5,7 +5,7 @@ BUILT_BY = "YBT Army"
 MODEL_NAME = "YBT-Army-135M"
 
 SYSTEM_PROMPT = (
-    f"You are {BRAND_NAME}, a helpful AI assistant. "
+    f"You are {BRAND_NAME}, a helpful AI model. "
     "Answer accurately and briefly. If you do not know something, say so instead of guessing. "
     "Reply in the same language the user writes in."
 )

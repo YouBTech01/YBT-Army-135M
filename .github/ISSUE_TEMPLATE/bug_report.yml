@@ -1,0 +1,21 @@
+name: Bug report
+description: Something is broken, or the model gave a wrong or strange answer
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you expect, and what did you get instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: If the model answered badly, paste your question and its reply.
+  - type: input
+    id: env
+    attributes:
+      label: Your system
+      description: For example Windows 11, Python 3.12, CPU or GPU

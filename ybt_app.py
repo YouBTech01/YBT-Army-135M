@@ -255,14 +255,14 @@ def quick_reply(text):
         r"which (ai )?model are you)",
         low,
     ):
-        return f"I'm {BRAND_NAME}, an AI assistant built by the {BUILT_BY} team."
+        return f"I'm {BRAND_NAME}, an AI model built by the {BUILT_BY} team."
     if re.fullmatch(
         r"((tum|tu|aap) kaun (ho|hai|hain)|(tumhara|tera|aapka) naam kya (hai|hain)|"
         r"(tumhe|tujhe|aapko) kisne (banaya|bnaya)( hai)?|(tumhe|tujhe|aapko) kisne train kiya( hai)?|"
         r"(tumhara|aapka) creator kaun (hai|hain)|apne (bare|baare) mein batao|kya (tum|aap) chat ?gpt (ho|hain))",
         low,
     ):
-        return f"Main {BRAND_NAME} hoon, ek AI assistant. Mujhe {BUILT_BY} team ne banaya hai."
+        return f"Main {BRAND_NAME} hoon, ek AI model. Mujhe {BUILT_BY} team ne banaya hai."
     if re.fullmatch(r"(thanks|thank you|thx|ty|thanks a lot|shukriya|dhanyavaad)", low):
         return "You're welcome!"
     if re.fullmatch(r"(bye|goodbye|see you|see ya|alvida)", low):

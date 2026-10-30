@@ -30,7 +30,7 @@ text{font-family:'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, 
 <text class="title" x="70" y="160" font-size="96" font-weight="800" fill="#fff" letter-spacing="-2">YBT Army</text>
 <rect class="bar" x="70" y="196" width="300" height="7" rx="3.5" fill="url(#g)"/>
 <g clip-path="url(#c)"><rect class="shine" x="70" y="196" width="60" height="7" fill="#fff" opacity="0"/></g>
-<text class="t1" x="70" y="256" font-size="27" fill="#A1A1AA">A compact 135M-parameter AI assistant</text>
+<text class="t1" x="70" y="256" font-size="27" fill="#A1A1AA">A compact 135M-parameter AI model</text>
 <text class="t2" x="70" y="256" font-size="27" fill="#A1A1AA">Runs on your laptop - under 300 MB</text>
 <text class="t3" x="70" y="256" font-size="27" fill="#A1A1AA">Clean chat UI for desktop and mobile</text>
 <rect class="eq" x="860" y="160" width="26" height="90" rx="13" fill="#2563EB" style="animation-delay:0s"/><rect class="eq" x="906" y="120" width="26" height="130" rx="13" fill="#7C3AED" style="animation-delay:0.2s"/><rect class="eq" x="952" y="180" width="26" height="70" rx="13" fill="#16A34A" style="animation-delay:0.45s"/><rect class="eq" x="998" y="140" width="26" height="110" rx="13" fill="#F59E0B" style="animation-delay:0.1s"/><rect class="eq" x="1044" y="100" width="26" height="150" rx="13" fill="#2563EB" style="animation-delay:0.35s"/><rect class="eq" x="1090" y="170" width="26" height="80" rx="13" fill="#7C3AED" style="animation-delay:0.6s"/>
